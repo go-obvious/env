@@ -27,7 +27,6 @@ import (
 )
 
 func main() {
-    // Load environment variables from a .env file
     value := env.GetOr("MY_VARIABLE", "nothing")
     fmt.Println("Got:", value)
 }
